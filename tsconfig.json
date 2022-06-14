@@ -1,0 +1,20 @@
+{
+    "compilerOptions": {
+        "outDir": "./dist/",
+        "sourceMap": true,
+        "noImplicitAny": true,
+        "module": "es6",
+        "target": "esnext",
+        "jsx": "react",
+        "allowJs": true,
+        "moduleResolution": "node",
+        // "emitDeclarationOnly": true,
+        "strict": true,
+        "esModuleInterop": true,
+        "declaration": true,
+        "isolatedModules": true
+    },
+    "include": [
+        "src" // <-- change this to where your source files are
+    ]
+}

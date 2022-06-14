@@ -1,0 +1,17 @@
+@import url("./normalize.scss");
+@import url("./fonts.scss");
+
+body {
+  margin: 0 auto;
+  max-width: 1440px;
+  color: green;
+}
+::placeholder {
+  display: block;
+}
+
+.image {
+  width: 300px;
+  height: 300px;
+  background: url("../assets/images/BlueTechnologyBackground.jpeg")
+}
